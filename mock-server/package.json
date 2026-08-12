@@ -1,0 +1,15 @@
+{
+  "name": "maya-kapture-mock-server",
+  "version": "1.0.0",
+  "description": "Mock webhook backend for the Maya collections voice assistant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
